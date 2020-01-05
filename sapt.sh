@@ -1,5 +1,5 @@
 #!/bin/bash 
-
+clear
 # ascii art of sapt
 
 echo "                    ___    __    ____  ____                    "
