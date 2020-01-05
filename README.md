@@ -5,4 +5,4 @@
 				             \__ \ /(__)\  )___/  )(
 			                     (___/(__)(__)(__)   (__)
   
-#  	          """Semi Automated Penetration Testing""" by kal
+#  		          """Semi Automated Penetration Testing""" by kal
