@@ -6,9 +6,9 @@ echo "                    ___    __    ____  ____                    "
 echo "                   / __)  /__\  (  _ \(_  _)                   "
 echo "                   \__ \ /(__)\  )___/  )(                     "
 echo "                   (___/(__)(__)(__)   (__)                    "
-echo "                                                               "
+echo "								     "
 echo "          """Semi Automated Penetration Testing""" by kal      "
-echo "                                                               "
+echo "								     "
 
 # checking for root/sudo
 
@@ -23,6 +23,11 @@ fi
 echo "[+] checking for requirements"
 
 requirements=(nmap nc foo bar)
+required=()
 for i in "${requirements[@]}"; do
-        command -v $i >/dev/null || { echo "I require $i but it's not installed."; }
+        command -v $i >/dev/null || { echo "I require $i but it's not installed."; required+=($i); }
+done
+
+for i in "${required[@]}"; do
+        echo "installing $i "
 done
