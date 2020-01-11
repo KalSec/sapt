@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import os, sys, getpass
+
 '''
 Copyright (C) 2020, kal.
 '''
@@ -14,3 +16,10 @@ def asciiArt():
 
 	          """Semi Automated Penetration Testing""" by kal
 	''')
+
+
+def isRoot():
+	user = getpass.getuser()
+	if not os.geteuid() == 0:
+		sys.exit("\nHello, "+user+". \nOnly root can run this script.\nUse sudo or run as root.\n")
+
