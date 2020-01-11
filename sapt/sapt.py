@@ -12,3 +12,6 @@ system("clear")
 
 # printing asciiart 
 asciiArt()
+
+# checking for root
+isRoot()
