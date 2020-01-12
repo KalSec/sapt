@@ -8,9 +8,6 @@ from os import system
 from lib.asciiart import *
 from lib.args import *
 
-# Clear the screen
-system("clear")
-
 # printing Asciiart
 asciiArt()
 
