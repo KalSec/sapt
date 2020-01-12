@@ -7,6 +7,7 @@ Copyright (C) 2020, kal.
 '''
 # ascii art of sapt
 def asciiArt():
+	os.system("clear")
 	print( '''
 
 	                    ___    __    ____  ____
