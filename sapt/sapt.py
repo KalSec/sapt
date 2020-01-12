@@ -15,3 +15,6 @@ asciiArt()
 
 # checking for root
 isRoot()
+
+# checking the arguments
+arguments()
