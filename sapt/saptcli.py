@@ -6,9 +6,7 @@ Copyright (C) 2020, kal.
 
 from os import system
 from lib.asciiart import *
-
-# clear the screen
-system("clear")
+from lib.args import *s
 
 # printing asciiart 
 asciiArt()
