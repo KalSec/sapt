@@ -8,7 +8,7 @@ Copyright (C) 2020, kal.
 # ascii art of sapt
 def asciiArt():
 	os.system("clear")
-	print( '''
+	print('\x1b[6;37m' +   '''
 
 	                    ___    __    ____  ____
 	                   / __)  /__\  (  _ \(_  _)
@@ -16,7 +16,7 @@ def asciiArt():
 	                   (___/(__)(__)(__)   (__)
 
 	          """Semi Automated Penetration Testing""" by kal
-	''')
+	''' + '\x1b[0m')
 
 
 def isRoot():
